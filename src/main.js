@@ -56,7 +56,7 @@ function doTheWork(inputValue) {
                 closeOnClick: true,
                 message: 'Something went wrong. Please, try again.',
             });
-            gallery.innerHTML = '';
             console.log(error);
+            removeLoadStroke(loadMessageBox);
         });
 }
